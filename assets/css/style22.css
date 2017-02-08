@@ -38,6 +38,7 @@ html, body {
 
 	float: left;
 	margin-left: 5%;
+	 width: 43%; height:auto; margin-right: 0%;
 
 
 }
@@ -131,7 +132,7 @@ nav {
 
 	float:  right;
 	margin-top: -72px;
-	margin-right: 13%;
+	margin-right: 7%;
 	color: #777777;
 	
   
@@ -155,6 +156,7 @@ header {
 	border-color: #cccccc;
 	height: 80px;
 	border-bottom-style: solid;
+	width: 100%;
 	border-width: 3px;
 	margin-top: 0px;
 
@@ -320,7 +322,11 @@ a:hover {
 	padding-top: 10px;
 }
 
+.hover-outline {
 
+	width: 30%;
+	height: auto;
+}
 
 
 .hover-outline:hover {
@@ -337,7 +343,7 @@ a:hover {
   
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1200px) {
 
 #links { float:left; margin-left: 0%;
 }
@@ -350,7 +356,7 @@ nav {margin-right: 7%;}
 
 .absolute-text {width: 100%;}
 
-.portpic {margin-right: 5%; height: auto;}
+.portpic {margin-right: 5%; height: auto; width: 43%; height:auto; margin-right: 0%; height: auto;}
 
 #bar {width: 80%;}
 
@@ -364,21 +370,46 @@ h1 {margin-left: 60px;}
   
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 930px){
 
-#main-bio {width: 95%; margin-right: 30px; margin-bottom: 0; }
+h3 {font-size: 20px; text-align: center;}
 
-#links {width: 120%; float: left; margin-bottom: 15%; margin-left: 60px;}
+}
+
+@media screen and (max-width: 780px) {
+
+h1 {margin-left: 41px;}
+
+#main-bio {width: 90%; margin-right: 20px; margin-left: 40px; margin-bottom: 0; }
+
+#links { float: left; width: 90%; max-width: 650px; margin-bottom: 15%; margin-left: 40px;
+
+margin-right: 10%}
+
+.hover-outline {width: 80px; height: auto; }
 
 .hover-outline2 {width: 100%;}
+
+#below {float: left; margin-left: 20px;
+}
   
-.portpic {width: 43%; height:auto; margin-right: 0%}  
+.portpic {width: 43%; height:auto; margin-right: 0%;}  
+
+h3 {font-size: 25px; text-align: left}
 }
 
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 690px) {
 
 
+h1 {width: 100%; padding-left: 30%; text-align: center; margin-left: 0px; margin-bottom: 0px;
+}
+
+nav {float: left; margin-top: 0px; text-align: center; width: 100%; background-color: white;
+line-height: 30px; border-bottom-style: solid; border-bottom-width: 2px; border-bottom-color: lightgrey }
+
+#none {margin-left: 50px; margin-right: 50px; 
+}
   
 }
